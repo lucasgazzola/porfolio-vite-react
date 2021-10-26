@@ -1,0 +1,25 @@
+{
+  "name": "my-portfolio",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "wouter": "^2.8.0-alpha.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "standard": "^16.0.4",
+    "vite": "^2.6.4"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  }
+}
