@@ -1,10 +1,13 @@
 import { Link } from 'wouter'
+import './style.css'
 export default function Nav () {
   return (
     <nav className='nav'>
-      <Link href='/'>
-        <img src='/logo.svg' alt='logo' />
-      </Link>
+      <div className='nav__logo'>
+        <Link href='/'>
+          <img src='./logo.svg' alt='logo' />
+        </Link>
+      </div>
       <ul className='nav__list'>
         <li className='nav__item'>
           <Link href='/'>Home</Link>
