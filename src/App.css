@@ -6,11 +6,6 @@ ul{
   list-style-type: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -18,19 +13,13 @@ ul{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #aaa;
   min-height: 100vh;
   align-items: center;
   text-align: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-Footer{
-  position: absolute;
-  bottom: 0;
-  text-align: center;
 }
 
 .App-link {
@@ -48,4 +37,31 @@ Footer{
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+/*----------*/
+/*Scroll Bar*/
+/*----------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f00;
+  border-radius: 100vh;
+  border: 3px solid #edf2f7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
 }

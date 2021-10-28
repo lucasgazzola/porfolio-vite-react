@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App () {
   return (
-    <div className='App-header'>
+    <div className='App-header bg-gradient-to-r from-indigo-400 via-blue-500 to-gray-300'>
       <Nav />
       <Route path='/' component={Home} />
       <Route path='/about' component={About} />
