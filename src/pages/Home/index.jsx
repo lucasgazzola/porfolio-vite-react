@@ -3,12 +3,12 @@ import Cards from '../../components/Cards'
 
 export default function Home () {
   return (
-    <div className='flex h-screen'>
-      <div className='flex flex-col justify-center text-gray-900 font-bold w-2/4'>
-        <h3 className='text-3xl'>Hello, my name is</h3>
-        <h3 className='text-5xl'>Lucas Gazzola</h3>
-        <p>I am a self taught <span className='text-white font-bold'>Front-end developer</span>  from Argentina and some of the technologies I've been working with are</p>
-        <div className='text-white font-bold'>
+    <section className='home-section'>
+      <div className='home-section__presentation'>
+        <h3>Hello, my name is</h3>
+        <h1>Lucas Gazzola</h1>
+        <p>I am a self taught <span>Front-end developer</span>  from Argentina and some of the technologies I've been working with are</p>
+        <span>
           <Typewriter
             options={{
               strings: [
@@ -22,11 +22,9 @@ export default function Home () {
               deleteSpeed: 50
             }}
           />
-        </div>
+        </span>
       </div>
-
       <Cards />
-
-    </div>
+    </section>
   )
 }

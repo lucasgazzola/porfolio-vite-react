@@ -1,5 +1,4 @@
 import { Link } from 'wouter'
-import './style.css'
 export default function Nav () {
   return (
     <nav className='nav fixed'>
