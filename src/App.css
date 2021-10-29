@@ -6,6 +6,7 @@ ul{
   list-style-type: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -16,15 +17,22 @@ ul{
   font-size: 52px;
 }
 
+section{
+  padding-top: 10vh;
+}
+
+
 /*NavBar Style*/
 
 .nav{
+  position: fixed;
+  z-index: 1;
   display: flex;
   flex-direction: row;
   width: 100%;
   border: 1px solid white;
   justify-content: space-between;
-  background: #0005
+  background: #000c
 }
 
 
@@ -38,12 +46,6 @@ ul{
 .nav__item{
   padding: 10px;
 }
-
-a{
-  text-decoration: none;
-  color: #fff;
-}
-
 
 /*Card Styles*/
 .social-media-list{
@@ -89,20 +91,28 @@ a{
 }
 
 .home-section__presentation span{
-  color: #fff;
+  color: #09f;
   font-weight: bold;
 }
 
+/*Projects Section Style*/
 
+
+.project-section__projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  justify-items: center;
+}
 
 .App-header {
-  background-color: #aaa;
+  background-color: #fff;
   min-height: 100vh;
   align-items: center;
   text-align: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000;
 }
 
 .App-link {
