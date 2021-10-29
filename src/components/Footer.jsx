@@ -3,12 +3,8 @@ export default function Footer () {
   const year = date.getFullYear()
   return (
     <footer className='footer'>
-      <div className='container'>
-        <div className='content has-text-centered'>
-          <p>
-            <strong>Copyright©{year} LucasGazzola</strong>
-          </p>
-        </div>
+      <div className='footer__container'>
+        <strong>Copyright©{year} LucasGazzola</strong>
       </div>
     </footer>
   )
