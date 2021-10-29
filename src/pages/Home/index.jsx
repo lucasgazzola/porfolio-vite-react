@@ -1,5 +1,5 @@
 import Typewriter from 'typewriter-effect'
-import Cards from '../../components/Cards'
+import SocialMedia from '../../components/SocialMedia'
 
 export default function Home () {
   return (
@@ -24,7 +24,7 @@ export default function Home () {
           />
         </span>
       </div>
-      <Cards />
+      <SocialMedia />
     </section>
   )
 }
