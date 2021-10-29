@@ -1,7 +1,7 @@
 import { Link } from 'wouter'
 export default function Nav () {
   return (
-    <nav className='nav fixed'>
+    <nav className='nav'>
       <div className='nav__logo'>
         <Link href='/'>
           <img src='./logo.svg' alt='logo' />
