@@ -1,6 +1,6 @@
 import socialMediaInfo from './socialMediaInfo'
 
-export default function ListOfCards () {
+export default function SocialMediaCards () {
   return (
     <ul className='social-media-list'>
       {socialMediaInfo.map(media => {
