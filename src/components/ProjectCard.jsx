@@ -6,7 +6,7 @@ export default function ProjectCard () {
     proyectsInfo.map(proyect => {
       const { id, url, name, description, image } = proyect
       return (
-        <a className='text-decoration-none text-dark' key={id} href={url} target='_blank' rel='noreferrer'>
+        <a className='project-section__card text-decoration-none text-dark' key={id} href={url} target='_blank' rel='noreferrer'>
           <Card style={{ width: '18rem' }}>
             <Card.Img variant='top' src={image} />
             <Card.Body>
