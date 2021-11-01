@@ -1,10 +1,11 @@
 import { Link } from 'wouter'
-export default function Nav () {
+import logo from '../favicon.svg'
+export default function NavBar () {
   return (
     <nav className='nav'>
       <div className='nav__logo'>
         <Link href='/'>
-          <img src='./logo.svg' alt='logo' />
+          <img src={logo} alt='logo' />
         </Link>
       </div>
       <ul className='nav__list'>
