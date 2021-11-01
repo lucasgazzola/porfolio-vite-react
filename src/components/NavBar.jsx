@@ -10,16 +10,24 @@ export default function NavBar () {
       </div>
       <ul className='nav__list'>
         <li className='nav__item'>
-          <Link href='/'>Home</Link>
+          <Link href='/'>
+            Home
+          </Link>
         </li>
         <li className='nav__item'>
-          <Link href='/about'>About</Link>
+          <Link href='/about'>
+            About
+          </Link>
         </li>
         <li className='nav__item'>
-          <Link href='/projects'>Projects</Link>
+          <Link href='/projects'>
+            Projects
+          </Link>
         </li>
         <li className='nav__item'>
-          <Link href='/contact'>Contact</Link>
+          <Link href='/contact'>
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>
