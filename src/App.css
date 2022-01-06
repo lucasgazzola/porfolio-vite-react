@@ -112,7 +112,7 @@ h1,h2,h3,p,span{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(180.45deg, #FF0055 0%, #000066 100%);
+  background: linear-gradient(180.45deg, #5f5f5f 0%, #000066 100%);
 }
 
 .home-section__presentation{
