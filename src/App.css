@@ -16,17 +16,12 @@
   color: #61dafb;
 }
 
-body{
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(./assets/background.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 ul{
@@ -54,7 +49,7 @@ section{
 .nav{
   position: fixed;
   height: 60px;
-  z-index: 1;
+  z-index: 1000;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -62,6 +57,9 @@ section{
   background: #000c
 }
 
+h1,h2,h3,p,span{
+  z-index: 100;
+}
 
 .nav__list{
   display: flex;
@@ -114,6 +112,7 @@ section{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: linear-gradient(180.45deg, #FF0055 0%, #000066 100%);
 }
 
 .home-section__presentation{

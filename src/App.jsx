@@ -16,6 +16,8 @@ function App () {
       <Route path='/contact' component={Contact} />
       <Route path='/projects' component={Projects} />
       <Footer />
+      <canvas class='background' />
+      <script src='path/to/particles.min.js' />
     </div>
   )
 }
