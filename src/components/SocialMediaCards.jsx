@@ -2,7 +2,7 @@ import socialMediaInfo from './socialMediaInfo'
 
 export default function SocialMediaCards () {
   return (
-    <ul className='social-media-list'>
+    <ul style={{ zIndex: 1000 }} className='social-media-list'>
       {socialMediaInfo.map(media => {
         const { url, icon } = media
         return (
