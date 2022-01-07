@@ -1,3 +1,7 @@
+*{
+  z-index: 1000;
+}
+
 .App {
   text-align: center;
 }
@@ -41,6 +45,10 @@ ul{
 
 section{
   padding-top: 10vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url("../src/assets/background4.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
 }
 
 
@@ -49,16 +57,12 @@ section{
 .nav{
   position: fixed;
   height: 60px;
-  z-index: 1000;
+  z-index: 10000 !important;
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
   background: #000c
-}
-
-h1,h2,h3,p,span{
-  z-index: 100;
 }
 
 .nav__list{
@@ -112,7 +116,6 @@ h1,h2,h3,p,span{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(180.45deg, #5f5f5f 0%, #000066 100%);
 }
 
 .home-section__presentation{
@@ -150,6 +153,12 @@ h1,h2,h3,p,span{
 
 
 /*Footer Style*/
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer__container{
   display: flex;
   justify-content: space-between;
