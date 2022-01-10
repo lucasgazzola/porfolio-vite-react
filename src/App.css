@@ -39,8 +39,13 @@ ul{
   }
 }
 
-.social-media-item{
+.social-media-item svg{
   font-size: 52px;
+  color: #fff;
+}
+
+.social-media-item > a:visited{
+  color: #fff
 }
 
 section{
@@ -72,6 +77,16 @@ section{
   text-align: end;
   align-items: center;
   margin: 0;
+  color: #fff;
+}
+
+.nav__list a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__list a:visited{
+  color: #fff;
 }
 
 .nav__item{
